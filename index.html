@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sanger／勤業案｜現況說明（2026-10-22）</title>
+<style>
+:root{
+  --ink:#1d2330; --ink2:#444c5c; --mute:#5f6675; --line:#e1e4ea; --bg:#f6f7f9; --card:#fff;
+  --hard:#a4161a; --hard-bg:#fde8e8; --hard-bd:#f0b3b3;
+  --soft:#8a4b00; --soft-bg:#fff1dc; --soft-bd:#dc9a45;
+  --flex:#17643a; --flex-bg:#e4f3ea; --flex-bd:#a6d6b6;
+  --firm:#2b3a8c; --firm-bg:#e8eaf8; --firm-bd:#b3bbe6;
+  --ok:#17643a; --no:#a4161a;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}
+.wrap{max-width:1140px;margin:0 auto;padding:28px 20px 56px}
+header h1{font-size:24px;margin:0 0 4px;letter-spacing:.02em}
+header .meta{color:var(--mute);font-size:13px}
+section{margin-top:34px}
+h2{font-size:18px;margin:0 0 12px;display:flex;align-items:baseline;gap:10px}
+h2 .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:50%;background:var(--ink);color:#fff;font-size:13px;flex:none}
+h2 .star{color:#b07800}
+h3{font-size:15px;margin:18px 0 8px}
+p{margin:6px 0}
+.lead{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--ink);border-radius:10px;padding:16px 18px}
+.lead .one{font-size:16.5px;line-height:1.7;margin:0}
+.lead .k{display:block;font-size:12.5px;color:var(--mute);font-weight:700;margin:14px 0 4px;letter-spacing:.04em}
+.lead ol{margin:0;padding-left:20px}
+.lead ol li{margin:2px 0}
+.moves{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.mv{border-radius:8px;padding:8px 10px;font-size:13.5px;border:1px solid}
+.mv b{display:block;font-size:12.5px;margin-bottom:2px}
+.mv.m-hard{background:var(--hard-bg);border-color:var(--hard-bd)} .mv.m-hard b{color:var(--hard)}
+.mv.m-soft{background:var(--soft-bg);border-color:var(--soft-bd);border-style:dashed} .mv.m-soft b{color:var(--soft)}
+.mv.m-flex{background:var(--flex-bg);border-color:var(--flex-bd)} .mv.m-flex b{color:var(--flex)}
+.mv.m-tbd{background:#fff;border-color:#9aa1ad} .mv.m-tbd b{color:var(--ink2)}
+.why{margin:0;padding:0;list-style:none}
+.why li{position:relative;padding:5px 0 5px 22px;border-top:1px dashed var(--line);color:var(--ink2)}
+.why li:first-child{border-top:0}
+.why li::before{content:"×";position:absolute;left:4px;top:4px;color:var(--no);font-weight:700}
+.note{color:var(--mute);font-size:13px}
+.src{display:block;color:var(--mute);font-size:12.5px;margin-top:4px}
+.src::before{content:"依據｜"}
+table{border-collapse:collapse;width:100%;background:var(--card)}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left}
+th{background:#eef0f4;font-weight:600;font-size:13px;color:var(--ink2)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:10px;border:1px solid var(--line)}
+.scroll table{border:0}
+.tag{display:inline-block;font-size:12px;line-height:1.5;padding:1px 8px;border-radius:999px;border:1px solid;white-space:nowrap;margin:1px 3px 1px 0;font-weight:600}
+.t-hard{color:var(--hard);background:var(--hard-bg);border-color:var(--hard-bd)}
+.t-soft{color:var(--soft);background:var(--soft-bg);border-color:var(--soft-bd);border-style:dashed}
+.t-flex{color:var(--flex);background:var(--flex-bg);border-color:var(--flex-bd)}
+.t-firm{color:var(--firm);background:var(--firm-bg);border-color:var(--firm-bd)}
+.t-tbd{color:var(--ink2);background:#fff;border-color:#9aa1ad;font-weight:500}
+.t-tbd::before{content:"？";font-weight:700}
+.t-ok{color:#2f3a4a;background:#eef1f5;border-color:#cfd5de;font-weight:500}
+.t-ok::before{content:"✓ ";font-weight:700;color:var(--ok)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0 0 12px;font-size:13px;color:var(--ink2)}
+/* 時間軸 */
+.tl{list-style:none;margin:0;padding:0;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.tl li{display:grid;grid-template-columns:100px 1fr minmax(170px,30%);gap:12px;padding:9px 14px;border-top:1px solid var(--line)}
+.tl li:first-child{border-top:0}
+.tl .d{font-weight:700;font-variant-numeric:tabular-nums}
+.tl .o{color:var(--ink2);font-size:13px}
+.tl .o::before{content:"產出｜";color:var(--mute)}
+.tl li.turn{background:#fffaf0}
+.tl li.turn .d::after{content:"轉折";display:block;font-size:11px;color:#9a6200;font-weight:600}
+/* 舊新機 */
+.hw td:first-child{font-weight:700;white-space:nowrap}
+/* 條件矩陣 */
+.mx td:first-child{font-weight:700}
+.mx tr.r-hard td:first-child{box-shadow:inset 4px 0 0 var(--hard)}
+.mx tr.r-soft td:first-child{box-shadow:inset 4px 0 0 var(--soft-bd)}
+.mx tr.r-flex td:first-child{box-shadow:inset 4px 0 0 var(--flex)}
+.mx tr.r-firm td:first-child{box-shadow:inset 4px 0 0 var(--firm)}
+.mx q{quotes:"「" "」"}
+.mx .who{display:block;color:var(--mute);font-size:12px}
+.mx td.c-say{width:23%}
+.mx td.c-kind{width:12%}
+.mx td.c-val{width:19%}
+/* 撞擊表 */
+.grid th,.grid td{text-align:center;font-size:13px;padding:7px 6px}
+.grid th{white-space:nowrap}
+.grid td.pl{text-align:left;min-width:180px;position:sticky;left:0;background:var(--card);z-index:1;padding-left:10px}
+.grid th.pl{position:sticky;left:0;z-index:2;text-align:left;padding-left:10px}
+.grid th.grp{background:#e6e9ef}
+.grid td.vd{text-align:left;font-weight:600;min-width:118px}
+.ok{color:var(--ok);font-weight:700}
+.no{color:var(--no);font-weight:700}
+.hit{background:var(--hard-bg);color:var(--hard);font-weight:700}
+.nil{color:#a9b0bc}
+.v-go{color:var(--ok)} .v-stop{color:var(--no)} .v-if{color:#7a5200}
+.callout{background:#fffdf5;border:1px solid #ecdcae;border-radius:10px;padding:12px 14px;margin:0 0 12px}
+/* 方案卡 */
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.plan{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.plan h3{margin:0 0 2px;font-size:17px}
+.plan .stack{font-size:13px;color:var(--ink2);margin-bottom:8px}
+.plan dl{margin:0;display:grid;grid-template-columns:4.4em 1fr;gap:6px 8px;font-size:14px}
+.plan dt{color:var(--mute);font-size:13px;padding-top:1px}
+.plan dd{margin:0}
+.plan .badge{float:right;font-size:12px;font-weight:700;padding:2px 9px;border-radius:999px}
+.plan.go{border-top:4px solid var(--flex)}
+.plan.stop{border-top:4px solid var(--hard);background:#fffafa}
+.b-go{background:var(--flex-bg);color:var(--flex)}
+.b-stop{background:var(--hard-bg);color:var(--hard)}
+.variant{margin-top:12px;background:var(--card);border:1px dashed #b9c0cc;border-radius:10px;padding:10px 14px;font-size:14px}
+.common{margin-top:10px;font-size:14px;color:var(--ink2)}
+/* 必問 */
+.q2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.qbox{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.qbox h3{margin:0 0 6px}
+.qbox.wide{grid-column:1/-1;border-left:4px solid #9aa1ad}
+.qbox ul{margin:4px 0 0;padding-left:18px}
+.qbox li{margin:3px 0}
+.dec th,.dec td{text-align:center;vertical-align:middle}
+.dec td{font-size:14px}
+.dec td b{display:block;font-size:15px}
+.dec th.rowh{text-align:left;width:30%}
+/* 下一步 */
+ol.next{margin:0;padding:0;list-style:none;counter-reset:n}
+ol.next li{counter-increment:n;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px 10px 46px;margin-bottom:8px;position:relative}
+ol.next li::before{content:counter(n);position:absolute;left:14px;top:11px;width:22px;height:22px;border-radius:50%;background:var(--ink);color:#fff;font-size:12px;text-align:center;line-height:22px}
+.refs{font-size:12.5px;color:var(--ink2);columns:2;column-gap:28px;padding-left:18px;margin:0}
+.refs li{break-inside:avoid;margin:2px 0}
+.refs a{color:#2b5cab;word-break:break-all}
+footer{margin-top:28px;color:var(--mute);font-size:12.5px;border-top:1px solid var(--line);padding-top:10px}
+@media (max-width:900px){
+  .plans,.q2{grid-template-columns:1fr}
+  .moves{grid-template-columns:1fr 1fr}
+  .refs{columns:1}
+}
+@media (max-width:760px){
+  .wrap{padding:18px 14px 40px}
+  header h1{font-size:20px}
+  .lead .one{font-size:15.5px}
+  .tl li{grid-template-columns:1fr;gap:2px}
+  .tl li.turn .d::after{display:inline;margin-left:6px}
+  table.cards,table.cards tbody,table.cards tr,table.cards td{display:block;width:auto!important}
+  table.cards thead{display:none}
+  table.cards tr{border:1px solid var(--line);border-radius:10px;margin-bottom:10px;background:var(--card);overflow:hidden}
+  table.cards td{border:0;border-top:1px solid var(--line);padding:7px 12px}
+  table.cards td:first-child{border-top:0;background:#f1f3f6;white-space:normal}
+  table.cards td[data-label]::before{content:attr(data-label);display:block;font-size:11.5px;color:var(--mute);font-weight:700;margin-bottom:1px}
+  .scroll.cardwrap{border:0;overflow:visible}
+  .mx tr td:first-child{box-shadow:none!important}
+  .mx tr.r-hard{border-left:4px solid var(--hard)}
+  .mx tr.r-soft{border-left:4px dashed var(--soft-bd)}
+  .mx tr.r-flex{border-left:4px solid var(--flex)}
+  .mx tr.r-firm{border-left:4px solid var(--firm)}
+  .grid td.pl{min-width:112px;font-size:12px}
+  .grid td.vd{min-width:96px}
+  .grid th,.grid td{font-size:12px}
+  .plan dl{grid-template-columns:4em 1fr}
+}
+@media print{
+  body{background:#fff;font-size:12px}
+  .wrap{max-width:none;padding:0}
+  section{break-inside:avoid-page}
+  .scroll{overflow:visible}
+  a{color:inherit;text-decoration:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Sanger／勤業案　現況說明</h1>
+  <div class="meta">資料截至 2026-10-22｜範圍：新主機建置、網站與資料庫搬遷、53 條弱點整改、DNS 切換</div>
+</header>
+
+<!-- 1 -->
+<section id="s1">
+  <h2><span class="n">1</span>一句話現況</h2>
+  <div class="lead">
+    <p class="one">客戶收到我方建議書後問的「Ubuntu 24.04＋Apache 2.4.66 以上＋PHP 8.1＋MariaDB 10.6」裝不起來；改走<b>甲</b>（新機用 22.04）或<b>乙</b>（資料庫改 10.11）都能做。哪一案要等客戶資安回答才能定；除非資安接受修補證明，兩案都要先改報價單（現行報價 11/14 到期）。</p>
+
+    <span class="k">要你現在決定</span>
+    <ol>
+      <li>是否送出甲、乙兩案，請客戶的資安單位書面回答：<b>弱掃掃的是哪一台</b>、<b>接不接受修補證明</b>（不接受的話，可否用第三方套件來源達到版號）、<b>資料庫是否一定要 10.6</b>。</li>
+      <li>是否現在就開始準備修訂報價。</li>
+    </ol>
+
+    <span class="k">哪些能動</span>
+    <div class="moves">
+      <div class="mv m-hard"><b>不能動</b>PHP 8.1（程式不改寫）；不保證掃描分數</div>
+      <div class="mv m-soft"><b>可以談</b>MariaDB 10.6（客戶理由只有「一致」；也是我方報價單的前提）</div>
+      <div class="mv m-flex"><b>我方能動</b>Linux 版本（24.04 是我方建議書提的）、套件來源、報價條款</div>
+      <div class="mv m-tbd"><b>待客戶答</b>弱掃對象是哪台；驗收看版號還是修補證明</div>
+    </div>
+
+    <span class="k">為什麼卡</span>
+    <ul class="why">
+      <li><b>版本死結</b>：MariaDB 原廠的 10.6 社群版套件只做到 22.04，沒有 24.04 版；10.6 已於 2026-07-06 停止維護。</li>
+      <li><b>我方文件前後不一</b>：建議書寫 24.04（PHP 8.3、MariaDB 10.11），報價單卻寫「資料庫與舊機同主版本」並排除「跨主版本升級」。照我方原案做，也會撞自己的報價條款。</li>
+      <li><b>驗收口徑沒人確認</b>：53 條是評分平台依版號比對出來的（清單連 4 項只影響 Windows 的漏洞都列在這台 Linux 上）。Ubuntu 把修補裝進原版號裡，漏洞修了、版號仍顯示舊的；若受掃的就是舊機 twtpevs002，清單所涉修補其實已經裝好。資安要看平台上的新版號，還是接受修補證明，沒有書面答案。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 2 -->
+<section id="s2">
+  <h2><span class="n">2</span>時間軸</h2>
+  <ol class="tl">
+    <li><span class="d">06-09</span><span>貝爾網站（Sanger）轉來勤業的弱點掃描報告（評分平台 Security Scorecard 匯出）53 條，去重 41 項，全是 Apache</span><span class="o">當時判讀：多數是 Apache 版本過舊</span></li>
+    <li><span class="d">06-18</span><span>送出「舊機上升級 Apache」報價；客戶擱置，9/15 重新詢問，價格維持</span><span class="o">報價單 V1.7（已送出）</span></li>
+    <li class="turn"><span class="d">10-06</span><span>客戶改為建新主機、裝完再切網域；新增資料庫管理工具（不對外）、inode／session 自動清理</span><span class="o">範圍改為新機建置＋搬遷</span></li>
+    <li class="turn"><span class="d">10-12～13</span><span>客戶工程師：網站與資料庫由我方搬、DNS 由我方協助、phpMyAdmin 只能本機用；版本畫面為 Ubuntu 22.04.5；反問「新機 OS 版本與設定？還是照舊機？」（反問未標日期，最早 10/13）</span><span class="o">範疇評估、待確認清單</span></li>
+    <li><span class="d">10-16～17</span><span>依舊機盤點交付建議書（主張 24.04：Apache 2.4.58／PHP 8.3／MariaDB 10.11）與新報價</span><span class="o">建議書 V1.0、報價單 v2.2、追問清單 8 題（已送出，尚未回覆）</span></li>
+    <li class="turn"><span class="d">10-20 前後</span><span>客戶以「假設性的問題」問 24.04＋Apache 2.4.66 以上＋PHP 8.1＋MariaDB 10.6；24.04 與建議書相同，10.6 與我方報價前提相同，但 PHP 8.1 與建議書不合（截圖未標日期）</span><span class="o">查證：三個版本 24.04 官方套件都沒有</span></li>
+    <li><span class="d">10-21</span><span>我方工程師擬回覆「技術上可以評估」並反問三題，未附方案</span><span class="o">是否已寄出，紀錄不一，待 JoJo 確認</span></li>
+    <li class="turn"><span class="d">10-22</span><span>外部顧問主張 24.04 可以裝：Apache、PHP 走 Sury（第三方套件來源，個人維護、無支援承諾）<b>成立</b>；MariaDB 10.6 走原廠套件庫<b>不成立</b>（顧問也註明無法確認）</span><span class="o">回覆定稿：甲、乙兩案＋問題（草擬，未寄，待 JoJo 確認）</span></li>
+  </ol>
+</section>
+
+<!-- 3 -->
+<section id="s3">
+  <h2><span class="n">3</span>舊機 vs 新機</h2>
+  <div class="scroll cardwrap">
+  <table class="hw cards">
+    <thead><tr><th style="width:11%">項目</th><th style="width:38%">舊機（現行）</th><th style="width:22%">新機（依方案）</th><th>狀態</th></tr></thead>
+    <tbody>
+      <tr><td>主機</td><td data-label="舊機">twtpevs002（10/16 盤點）；TWTESTVS002（10/12 版本畫面），兩台不同</td><td data-label="新機">客戶建立虛擬主機</td><td data-label="狀態"><span class="tag t-tbd">待確認</span>網站與弱掃對象是哪一台（第 6 節必問）</td></tr>
+      <tr><td>Linux</td><td data-label="舊機">22.04（twtpevs002 依套件版本判斷；TWTESTVS002 顯示 22.04.5）</td><td data-label="新機">甲 22.04／乙 24.04</td><td data-label="狀態"><span class="tag t-tbd">待確認</span>twtpevs002 尚缺 lsb_release；客戶稱目前主機為 24.04＋Apache 2.4.66，與兩次盤點不符</td></tr>
+      <tr><td>Apache</td><td data-label="舊機">2.4.52，Ubuntu 官方套件（已是 22.04 最新安全更新，10/14 發布，已含清單所涉修補，見第 4 節）；TWTESTVS002 路徑為 /usr/local/apache2，疑自行編譯</td><td data-label="新機">2.4.69（Sury）；資安接受修補證明則可用官方版</td><td data-label="狀態"><span class="tag t-ok">已證實</span>twtpevs002<br><span class="tag t-tbd">待確認</span>TWTESTVS002</td></tr>
+      <tr><td>PHP</td><td data-label="舊機">8.1.29，來自 Sury；網站用的模組只有 8.1，主機另裝有 8.2（命令列預設）</td><td data-label="新機">8.1（Sury 或 22.04 官方）</td><td data-label="狀態"><span class="tag t-ok">已證實</span></td></tr>
+      <tr><td>MariaDB</td><td data-label="舊機">10.6.23，Ubuntu 官方套件（社群維護區）；只在本機監聽</td><td data-label="新機">甲 10.6／乙 10.11</td><td data-label="狀態"><span class="tag t-ok">已證實</span></td></tr>
+      <tr><td>Docker／Nginx</td><td data-label="舊機">套件清單未見（10/12 客戶架構圖上有）</td><td data-label="新機">不用容器</td><td data-label="狀態"><span class="tag t-tbd">待確認</span></td></tr>
+      <tr><td>網站 80／443</td><td data-label="舊機">客戶傳來的連接埠清單不完整，看不出網站跑在這台</td><td data-label="新機">—</td><td data-label="狀態"><span class="tag t-tbd">待確認</span>已請重傳</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <span class="src">客戶 10/12 版本畫面（lsb_release -a）；客戶 10/16 回傳之 dpkg -l、ss -ltnp 輸出；Launchpad：22.04 apache2 2.4.52-1ubuntu4.25（安全更新，2026-10-14）；Ubuntu 22.04 apache2 changelog</span>
+</section>
+
+<!-- 4 -->
+<section id="s4">
+  <h2><span class="n">4</span><span class="star">★</span>條件矩陣：哪條能讓、哪條不能讓</h2>
+  <div class="legend">
+    <span><span class="tag t-hard">客戶硬需求</span>客戶明說，且有理由</span>
+    <span><span class="tag t-soft">客戶要求・可談</span>客戶有說，但沒有技術或資安理由</span>
+    <span><span class="tag t-flex">我方彈性</span>我方可以調整</span>
+    <span><span class="tag t-firm">我方不可退</span>讓了會變成另一個案子，或由我方承擔長期風險</span>
+    <span><span class="tag t-tbd">待確認</span>尚無書面或官方證據</span>
+  </div>
+  <div class="scroll cardwrap">
+  <table class="mx cards">
+    <thead><tr><th style="width:8%">條件</th><th>客戶怎麼說</th><th>性質</th><th>目前可選值</th><th>動它的後果</th></tr></thead>
+    <tbody>
+      <tr class="r-flex">
+        <td>Linux</td>
+        <td class="c-say" data-label="客戶怎麼說"><span class="who">10/12～13 反問</span><q>現在能夠先提供 OS 版本與所需設定嗎？還是依照舊主機設定就好？</q><span class="who">10/20 前後</span><q>在 Ubuntu 24.04 LTS 上…是否可行</q>（是提問，沒說必須）</td>
+        <td class="c-kind" data-label="性質"><span class="tag t-flex">我方彈性</span></td>
+        <td class="c-val" data-label="目前可選值">22.04：標準維護至 2027-05<br>24.04：標準維護至 2029-05</td>
+        <td data-label="動它的後果">24.04 是我方建議書提的，客戶沒有指定。客戶以為現行主機是 24.04，兩次盤點都是 22.04；若沒有另一台 24.04 主機，「與現行一致」指的就是 22.04<span class="tag t-tbd">待確認</span>。<br>選 22.04：建議書要改版；距今約 7 個月要加購 Ubuntu Pro（延至 2032-05，費用屬客戶）或再升級一次（另案）；若客戶已先裝好 24.04 要重灌。<br>選 24.04：MariaDB 10.6 裝不起來。
+          <span class="src">Ubuntu 官方發行週期頁</span></td>
+      </tr>
+      <tr class="r-hard">
+        <td>Apache</td>
+        <td class="c-say" data-label="客戶怎麼說"><span class="who">10/20 前後</span><q>目前弱點掃描報告，Apache 至少得升級到 2.4.66 以上，才能符合最新標準。</q></td>
+        <td class="c-kind" data-label="性質"><span class="tag t-hard">客戶硬需求</span><span class="tag t-tbd">口徑</span></td>
+        <td class="c-val" data-label="目前可選值">2.4.52（22.04 官方）<br>2.4.58（24.04 官方）<br>2.4.69（Sury，22.04、24.04 都有）</td>
+        <td data-label="動它的後果">舊機 twtpevs002 的 Apache（2026-10-14 安全更新）已含清單所涉修補：清單上限 2.4.67 那批，Ubuntu 在 2026-05-05 就納入；2.4.53～2.4.67 修掉的漏洞，22.04 只缺 5 項只影響 Windows、1 項只影響 2.4.64。<br>但評分平台依版號比對，官方套件（2.4.52、2.4.58）照樣會被列。平台的處理方式是申報補償性控制、附修補紀錄。要平台直接看到達標版號，只能走 Sury 2.4.69，會撞「非官方來源」排除項與「官方套件」前提。<br>門檻不宜寫 2.4.66：2.4.66 本身有一個重大漏洞（CVE-2026-23918），2.4.67 才修掉；客戶報告也有 4 項要求 2.4.67。建議寫「不低於 2.4.67（安裝時最新版，目前 2.4.69）」。
+          <span class="src">Apache 2.4 安全公告頁；Ubuntu 22.04 apache2 changelog；SecurityScorecard 支援文章（原文未能直接開啟，依搜尋摘要）；packages.sury.org/apache2；客戶 53 條清單</span></td>
+      </tr>
+      <tr class="r-hard">
+        <td>PHP</td>
+        <td class="c-say" data-label="客戶怎麼說"><span class="who">10/20 前後</span><q>因工程師告知目前程式最高只能運作在 PHP 8.1，若升到 PHP 8.3 程式可能會出現問題。</q></td>
+        <td class="c-kind" data-label="性質"><span class="tag t-hard">客戶硬需求</span><span class="tag t-tbd">未經測試</span></td>
+        <td class="c-val" data-label="目前可選值">版本：只能 8.1<br>來源：Sury 8.1.34（22.04、24.04 都有），或 22.04 官方 8.1.2＋Ubuntu 修補<br>24.04 官方只有 8.3</td>
+        <td data-label="動它的後果"><b>版本不能動，來源能動。</b>PHP 官方已於 2025-12-31 停止維護 8.1；Sury 仍有補漏洞（2026-05 一次補 8 個），但沒有支援承諾。舊機的 PHP 本來就來自 Sury。<br>在 24.04 上用 8.1，會撞「非官方來源」排除項與「程式在官方 PHP 上免改寫」前提。舊機另裝有 8.2，可順帶問程式是否在 8.2／8.3 測過。
+          <span class="src">php.net 支援版本頁；packages.sury.org/php；Sury php8.1 changelog</span></td>
+      </tr>
+      <tr class="r-soft">
+        <td>MariaDB</td>
+        <td class="c-say" data-label="客戶怎麼說"><span class="who">10/20 前後</span><q>因為要與現行主機一致，PHP 與 MariaDB 版本需與現行主機一致，也就是 PHP 8.1 與 MariaDB 10.6。</q></td>
+        <td class="c-kind" data-label="性質"><span class="tag t-soft">客戶要求・可談</span></td>
+        <td class="c-val" data-label="目前可選值">10.6（22.04 官方，即現行）<br>10.11（24.04 官方；MariaDB 官方維護至 2028-02）<br>24.04 沒有社群版 10.6</td>
+        <td data-label="動它的後果">理由只有「一致」：53 條全是 Apache，沒有資料庫項目；我方報價前提也寫了「資料庫同主版本」。<br>10.6 已於 2026-07-06 停止維護，22.04 上的 10.6 也一樣：它在 Ubuntu 社群維護區，不在 Canonical 免費修補範圍內（要 Ubuntu Pro），最後一次安全更新是 2025-05。要 10.6 又要 24.04，只能用容器、自行編譯或硬裝，全是報價排除項（見丙）。<br>改 10.11 會撞「跨主版本升級」排除項與「同主版本」前提；時間欄位的預設行為從 10.10 起不同，搬過去要測。
+          <span class="src">MariaDB 10.6 套件庫（無 24.04 版）；10.6.28 封存庫（僅 22.04）；MariaDB 版本 API；Launchpad mariadb-10.6；ubuntu.com/security/esm；MariaDB 系統變數文件</span></td>
+      </tr>
+      <tr class="r-firm">
+        <td>程式碼</td>
+        <td class="c-say" data-label="客戶怎麼說"><span class="who">10/12</span><q>由你們那邊處理，程式需能正常運行。</q></td>
+        <td class="c-kind" data-label="性質"><span class="tag t-hard">客戶硬需求</span><span class="tag t-firm">我方不可退</span></td>
+        <td class="c-val" data-label="目前可選值">不改寫</td>
+        <td data-label="動它的後果">報價排除「應用程式修改或相容性改寫」，雙方立場一致。這條鎖死了 PHP 8.1。
+          <span class="src">報價單 v2.2 第三節</span></td>
+      </tr>
+      <tr class="r-firm">
+        <td>用容器裝 10.6</td>
+        <td class="c-say" data-label="客戶怎麼說">客戶沒有要求。10/12 架構圖畫有 Docker＋Nginx，但 10/16 盤點未見<span class="tag t-tbd">待確認</span>。「Docker 跑 10.6」是外部顧問的備案。</td>
+        <td class="c-kind" data-label="性質"><span class="tag t-firm">我方不可退</span></td>
+        <td class="c-val" data-label="目前可選值">非容器化（報價前提）<br>Docker 跑 10.6.28（底層 22.04）</td>
+        <td data-label="動它的後果">不用容器把停止維護的資料庫搬上 24.04。理由見丙：撞兩條報價條款、主機防火牆擋不到容器開的連接埠、保固期後沒人維護。
+          <span class="src">Docker 官方文件〈Packet filtering and firewalls〉；MariaDB 官方容器映像</span></td>
+      </tr>
+      <tr class="r-firm">
+        <td>驗收</td>
+        <td class="c-say" data-label="客戶怎麼說"><span class="who">6/17 我方問</span><q>驗收是以排除文件裡面53條問題為驗收條件嗎？</q>未獲回覆。<span class="who">10/20 前後</span>見 Apache 列。</td>
+        <td class="c-kind" data-label="性質"><span class="tag t-tbd">口徑</span><span class="tag t-firm">我方不可退</span></td>
+        <td class="c-val" data-label="目前可選值">53 項逐項修補佐證（現行報價）<br>以平台上的 Apache 版號為準</td>
+        <td data-label="動它的後果">口徑可以談。不能退的是「不以評分平台分數為驗收條件」（現行報價已有）。另要在修訂報價<b>新增</b>：第三方來源與停止維護版本日後的弱點，不在保固內（現行報價沒有這條）。<br>若資安只認平台上的版號，第六節要改寫；掃描器若也讀得到 PHP 8.1、MariaDB 10.6，會標成「不受支援版本」，哪一案都一樣。
+          <span class="src">報價單 v2.2 第六節</span></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="note">另外三項客戶條件沒有爭議，已在報價範圍內：phpMyAdmin 不對外、只在本機使用；網站與資料庫由我方搬；DNS 由我方協助，等新機測試完、舊站暫停、資料再同步後才切換（均為 10/12 原話）。</p>
+
+  <h3>組合 × 報價條款：哪個組合撞哪條</h3>
+  <div class="callout"><b>甲保住客戶明說的全部條件</b>（Apache 版號、PHP 8.1、MariaDB 10.6），只把作業系統退回 22.04；24.04 本來就是我方建議書提的。<b>乙保住 24.04，但要客戶放掉 MariaDB 10.6。</b>四項都保、又不另外付費的只有丙，不建議。除了甲′（需資安接受修補證明），每一案都要改報價。</div>
+  <div class="scroll">
+  <table class="grid">
+    <thead>
+      <tr><th class="pl" rowspan="2">組合</th><th rowspan="2" style="text-align:left">判斷</th><th class="grp" colspan="4">客戶問的條件</th><th class="grp" colspan="6">報價單 v2.2 條款</th></tr>
+      <tr><th>24.04<sup>1</sup></th><th>Apache<br>版號達標</th><th>PHP<br>8.1</th><th>MariaDB<br>10.6</th>
+          <th>排除<br>容器化</th><th>排除<br>非官方來源</th><th>排除<br>跨主版本</th><th>前提<br>官方套件、<br>非容器化</th><th>前提<br>DB 同主版本</th><th>前提<br>程式在官方<br>PHP 上免改寫</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="pl">建議書原案<br><span class="note">24.04 全官方 2.4.58／8.3／10.11</span></td>
+        <td class="vd v-stop">PHP 8.3 超出客戶上限</td>
+        <td class="ok">✓</td><td class="no">✕</td><td class="no">✕</td><td class="no">✕</td>
+        <td class="nil">—</td><td class="nil">—</td><td class="hit">撞</td><td class="nil">—</td><td class="hit">撞</td><td class="hit">撞<sup>2</sup></td></tr>
+      <tr><td class="pl"><b>甲</b>　22.04＋Sury Apache 2.4.69<br><span class="note">PHP 8.1、MariaDB 10.6 同現行</span></td>
+        <td class="vd v-go">可做</td>
+        <td class="no">✕</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td>
+        <td class="nil">—</td><td class="hit">撞</td><td class="nil">—</td><td class="hit">撞</td><td class="nil">—</td><td class="hit">撞<sup>3</sup></td></tr>
+      <tr><td class="pl"><b>甲′</b>　22.04 全官方<br><span class="note">2.4.52／8.1／10.6</span></td>
+        <td class="vd v-if">資安接受修補證明才成立</td>
+        <td class="no">✕</td><td class="no">✕<sup>4</sup></td><td class="ok">✓</td><td class="ok">✓</td>
+        <td class="nil">—</td><td class="nil">—</td><td class="nil">—</td><td class="nil">—</td><td class="nil">—</td><td class="nil">—</td></tr>
+      <tr><td class="pl"><b>乙</b>　24.04＋Sury Apache／PHP<br><span class="note">MariaDB 改 10.11</span></td>
+        <td class="vd v-go">可做</td>
+        <td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">✕</td>
+        <td class="nil">—</td><td class="hit">撞</td><td class="hit">撞</td><td class="hit">撞</td><td class="hit">撞</td><td class="hit">撞</td></tr>
+      <tr><td class="pl"><b>丙</b>　24.04＋Sury＋容器跑 10.6</td>
+        <td class="vd v-stop">不建議</td>
+        <td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td>
+        <td class="hit">撞</td><td class="hit">撞</td><td class="nil">—</td><td class="hit">撞</td><td class="nil">—</td><td class="hit">撞</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="note">1. 24.04 出自我方建議書，客戶是在提問中帶到，沒有指定。　2. 原案的 PHP 8.3 是官方版本，撞的是「程式免改寫」（客戶表示 8.3 可能不相容）。　3. 甲的 PHP 若改用 22.04 官方 8.1，這格不撞。　4. 漏洞已修補，但平台上仍顯示 2.4.52。　除建議書原案外，每一案都要改版建議書。</p>
+</section>
+
+<!-- 5 -->
+<section id="s5">
+  <h2><span class="n">5</span>三條方案</h2>
+  <div class="plans">
+    <div class="plan go">
+      <h3>甲<span class="badge b-go">可做</span></h3>
+      <div class="stack">Ubuntu 22.04＋Apache 2.4.69（Sury）＋PHP 8.1（Sury，同現行）＋MariaDB 10.6（22.04 官方，同現行）</div>
+      <dl>
+        <dt>滿足</dt><dd>客戶明說的全部條件：Apache 版號、PHP 8.1、MariaDB 10.6、程式不改寫。沒有 24.04（我方提的）。</dd>
+        <dt>犧牲</dt><dd>作業系統標準維護只到 2027-05。資料庫 10.6 已停止維護、不在 Canonical 免費修補範圍（與丙相同）。Sury 對到期的作業系統版本，通常隨下次更新就移除套件，所以 2027-05 後 Apache 可能停在 2.4.69（推論）。</dd>
+        <dt>報價</dt><dd>改 3 條：「非官方來源」排除、「官方套件」前提、「程式在官方 PHP 上免改寫」前提（PHP 改用 22.04 官方可少 1 條）。建議書作業系統改 22.04。資料庫條款不動。</dd>
+        <dt>工時</dt><dd>小幅增加，粗估 0.5 人日內（Sury 來源導入與版本鎖定），待工程確認</dd>
+        <dt>選了會</dt><dd>搬遷同版本、不用轉換資料庫，變動最少。2027-05 前要再升級作業系統或加購 Ubuntu Pro；升級屬另案，要寫進報價前提。</dd>
+      </dl>
+    </div>
+    <div class="plan go">
+      <h3>乙<span class="badge b-go">可做</span></h3>
+      <div class="stack">Ubuntu 24.04＋Apache 2.4.69（Sury）＋PHP 8.1（Sury）＋MariaDB 10.11（24.04 官方）</div>
+      <dl>
+        <dt>滿足</dt><dd>24.04、Apache 版號、PHP 8.1、程式不改寫（資料庫要測）。不滿足：MariaDB 10.6。</dd>
+        <dt>犧牲</dt><dd>客戶要放掉 10.6。10.6 轉 10.11 要用客戶的測試清單驗證。正式機上會掛兩個第三方來源（Apache、PHP）。</dd>
+        <dt>報價</dt><dd>改 5 條，最多：「非官方來源」「跨主版本升級」排除；「官方套件」「資料庫同主版本」「程式在官方 PHP 上免改寫」前提。</dd>
+        <dt>工時</dt><dd>粗估 +1～2 人日（Sury 導入與 PHP 擴充對齊、資料庫轉換與加測、來源與更新說明），待工程確認</dd>
+        <dt>選了會</dt><dd>作業系統維護到 2029-05、資料庫到 2028-02，壽命最長。代價是一次資料庫轉換，以及報價條款改得最多。</dd>
+      </dl>
+    </div>
+    <div class="plan stop">
+      <h3>丙<span class="badge b-stop">不建議</span></h3>
+      <div class="stack">Ubuntu 24.04＋Sury Apache／PHP＋MariaDB 10.6 用 Docker 容器跑（官方映像 10.6.28，底層 22.04）</div>
+      <dl>
+        <dt>滿足</dt><dd>紙面上四項全滿足</dd>
+        <dt>問題</dt><dd>資料庫一樣是停止維護的 10.6，卻多一層容器：主機防火牆（UFW）擋不到容器開的連接埠，設錯資料庫就直接對外；容器弱掃會另列一批停止維護的項目；保固期後映像沒人維護。</dd>
+        <dt>報價</dt><dd>撞 4 條，含「容器化建置」排除與「非容器化」前提。建議不報價。</dd>
+        <dt>工時</dt><dd>不估（建議不承作）</dd>
+        <dt>若堅持</dt><dd>改成「資料庫由客戶自備自管，我方只做網站層」，並由客戶書面承擔風險；或由客戶購買 MariaDB 企業版 10.6（付費；是否支援 24.04<span class="tag t-tbd">待確認</span>）。</dd>
+      </dl>
+    </div>
+  </div>
+  <div class="variant"><b>甲′：22.04 全官方</b>（Apache 2.4.52／PHP 8.1／MariaDB 10.6，全用 Ubuntu 官方套件，不用第三方來源）。報價條款一條都不撞，只要改版建議書。53 條所涉修補在 22.04 官方修補紀錄裡都查得到（見第 4 節 Apache 列），但評分平台仍會依版號列出，所以前提是資安接受修補證明（例如向平台申報補償性控制）。Apache、PHP 由 Canonical 免費修補；MariaDB 10.6 要靠 Ubuntu Pro 或接受社群維護。</div>
+  <p class="common">甲、乙共通：PHP 8.1 已停止官方維護。交付後的套件更新由客戶執行，或另簽維運（長期維運不在本次報價內）。</p>
+</section>
+
+<!-- 6 -->
+<section id="s6">
+  <h2><span class="n">6</span>還缺的答案</h2>
+  <div class="q2">
+    <div class="qbox wide">
+      <h3>先問：弱掃掃的是哪一台主機？</h3>
+      <ul>
+        <li><b>若是舊機 twtpevs002</b>：它的 Apache 已含清單所涉修補，53 條現在就修好了，是平台看版號造成的誤報；新機裝任何官方套件都會被再列一次。</li>
+        <li><b>若是 TWTESTVS002（疑自行編譯）或其他主機</b>：53 條可能真的沒修。新機不論哪一案都會修掉，但用官方套件一樣會被平台依版號列出。</li>
+        <li class="note">清單本身沒有主機、網址或漏洞編號，我方無法自行判定。10/17 追問清單第 1、2 題已問，尚未回覆。</li>
+      </ul>
+    </div>
+    <div class="qbox">
+      <h3>問題一：資安接不接受修補證明，還是一定要平台上看到新版號？</h3>
+      <ul>
+        <li><b>接受修補證明</b>（例如由客戶向評分平台申報補償性控制，附 Ubuntu 修補紀錄）：甲′ 全官方可行，沿用現行「53 項逐項佐證」驗收。</li>
+        <li><b>要新版號，且接受第三方套件來源</b>：Apache 走 Sury 2.4.69（甲或乙）；驗收改以版號為準；PHP 8.1、MariaDB 10.6 若被識別也會被標。</li>
+        <li><b>要新版號，又不接受第三方來源</b>：目前沒有不改程式的做法，屬另案。</li>
+        <li class="note">修補紀錄本來就有，平台仍會依版號列出，差別在資安願不願意走申報。現有跡象偏向看版號（客戶原話「至少得升級到 2.4.66 以上」），但這是客戶工程師轉述的，要以資安單位的書面回覆為準。</li>
+      </ul>
+    </div>
+    <div class="qbox">
+      <h3>問題二：資料庫是否一定要 10.6？</h3>
+      <ul>
+        <li><b>一定要</b>：只剩甲或甲′（24.04 上只有丙，不建議）。</li>
+        <li><b>可以改</b>：乙成為選項，新機作業系統可以用到 2029-05。</li>
+        <li class="note">現有跡象偏向可談：客戶給的理由只有「與現行一致」，53 條裡沒有任何資料庫項目。</li>
+      </ul>
+    </div>
+  </div>
+  <h3>問題一、二會把我們推向哪一案</h3>
+  <div class="scroll">
+  <table class="dec">
+    <thead><tr><th class="rowh"></th><th>資料庫一定要 10.6</th><th>資料庫可改 10.11</th></tr></thead>
+    <tbody>
+      <tr><th class="rowh">要新版號（接受第三方來源）</th><td><b>甲</b>22.04＋Sury Apache 2.4.69</td><td><b>乙</b>壽命最長，建議</td></tr>
+      <tr><th class="rowh">接受修補證明</th><td><b>甲′</b>報價不用改，只改建議書</td><td><b>甲′ 或 乙</b>看客戶要作業系統壽命，還是最少變動</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<!-- 7 -->
+<section id="s7">
+  <h2><span class="n">7</span>下一步</h2>
+  <ol class="next">
+    <li><b>送出定稿，不是只催回覆</b>：客戶手上確定有的是 10/17 追問清單（8 題，都還沒回），還沒看過甲、乙兩案。定稿先補兩處：問題一改問「接不接受修補證明；不接受的話，可否用第三方來源」，並請客戶先回 10/17 第 1、2 題（弱掃對象是哪台）。只寄這一則（10/21 那封若已寄，註明以本則為準），請<b>資安單位書面</b>回覆；順帶確認新主機是否已裝好作業系統、程式是否在 PHP 8.2／8.3 測過。</li>
+    <li>答案回來後選定方案，<b>趕在 11/14 報價到期前</b>發修訂報價（單一版本，取代 v2.2）。內容：改寫撞擊表裡標「撞」的條款（甲 3 條、乙 5 條；甲′ 不用改）；新增保固除外（第三方來源套件本身的缺陷、停止維護版本日後的弱點）；寫明驗收口徑（以版號為準，或以修補紀錄申報）；甲另把 2027 年的作業系統升級列為另案。</li>
+    <li>同步改版新主機規格建議書，作業系統與版本表依選定方案更新。</li>
+  </ol>
+</section>
+
+<section id="refs">
+  <h2><span class="n">§</span>依據</h2>
+  <ol class="refs">
+    <li>客戶原話：10/12～13 LINE 群組訊息；10/20 前後「假設性的問題」訊息（截圖未標日期）；10/16 主機盤點指令輸出</li>
+    <li>客戶弱點掃描清單（6/9，Security Scorecard 匯出，53 條，去重 41 項，皆為 Apache HTTP Server；含 4 項只影響 Windows；無主機、網址、漏洞編號）</li>
+    <li>報價單 UB-QUO-20261015-SANGER-APACHE-V2.2：第三節不包含項目、第四節前提假設、第六節驗收與保固</li>
+    <li>Ubuntu 發行週期：<a href="https://ubuntu.com/about/release-cycle">ubuntu.com/about/release-cycle</a>（22.04 標準維護至 2027-05、延伸至 2032-05；24.04 至 2029-05）</li>
+    <li>Ubuntu 套件版本：<a href="https://launchpad.net/ubuntu/+source/apache2">Launchpad apache2</a>、<a href="https://launchpad.net/ubuntu/+source/php8.1">php8.1</a>、<a href="https://launchpad.net/ubuntu/+source/mariadb-10.6">mariadb-10.6</a>、<a href="https://launchpad.net/ubuntu/+source/mariadb">mariadb</a>（22.04：2.4.52／8.1.2／10.6.23；24.04：2.4.58／8.3／10.11；22.04 的 10.6 在社群維護區，最後一次安全更新 10.6.22，2025-05-20）</li>
+    <li>Ubuntu 22.04 apache2 changelog：<a href="https://changelogs.ubuntu.com/changelogs/pool/main/a/apache2/apache2_2.4.52-1ubuntu4.25/changelog">2.4.52-1ubuntu4.25</a>（4.20 於 2026-05-05 納入 2.4.67 批次，含 CVE-2026-23918）</li>
+    <li>Ubuntu 安全維護範圍：<a href="https://ubuntu.com/security/esm">ubuntu.com/security/esm</a>（免費安全維護涵蓋 main；社群維護區需 Ubuntu Pro）</li>
+    <li>評分平台處理回補：<a href="https://support.securityscorecard.com/hc/en-us/articles/38107159870363-Backporting-and-CVE-related-findings">SecurityScorecard〈Backporting and CVE-related findings〉</a>（回補不改版號仍會列出；以補償性控制申報並附修補紀錄。原文未能直接開啟，依搜尋摘要）</li>
+    <li>Apache 安全公告：<a href="https://httpd.apache.org/security/vulnerabilities_24.html">httpd.apache.org/security/vulnerabilities_24.html</a>（2.4.69 於 2026-10-01 發布；CVE-2026-23918 只影響 2.4.66，2.4.67 於 2026-05-04 發布並修正）</li>
+    <li>Sury Apache：<a href="https://packages.sury.org/apache2/pool/main/a/apache2/">packages.sury.org/apache2</a>（2.4.69，22.04／24.04 版，2026-10-05）</li>
+    <li>Sury PHP：<a href="https://packages.sury.org/php/pool/main/p/php8.1/">packages.sury.org/php</a>（8.1.34，2026-10-21 建置；changelog 8.1.34-4 補 8 項 CVE）</li>
+    <li>Sury FAQ：<a href="https://github.com/oerdnj/deb.sury.org/wiki/Frequently-Asked-Questions">deb.sury.org FAQ</a>（作業系統版本到期後，套件通常隨下次更新移除；不提供使用者支援）</li>
+    <li>PHP 支援週期：<a href="https://www.php.net/supported-versions.php">php.net/supported-versions.php</a>（8.1 於 2025-12-31 停止安全支援）</li>
+    <li>MariaDB 套件庫：<a href="https://mirror.mariadb.org/repo/10.6/ubuntu/dists/">mirror.mariadb.org/repo/10.6</a>（只到 22.04，無 24.04 版）；<a href="https://archive.mariadb.org/mariadb-10.6.28/repo/ubuntu/dists/">10.6.28 封存庫</a>（僅 22.04）</li>
+    <li>MariaDB 生命週期：<a href="https://downloads.mariadb.org/rest-api/mariadb/">downloads.mariadb.org/rest-api/mariadb</a>（10.6 至 2026-07-06；10.11 至 2028-02-16）</li>
+    <li>MariaDB 行為差異：<a href="https://mariadb.com/kb/en/server-system-variables/#explicit_defaults_for_timestamp">explicit_defaults_for_timestamp</a>（10.10 起預設 ON）</li>
+    <li>MariaDB 官方容器映像：<a href="https://hub.docker.com/_/mariadb">hub.docker.com/_/mariadb</a>（10.6 標籤＝10.6.28，底層 22.04）</li>
+    <li>Docker 與 UFW：<a href="https://docs.docker.com/engine/network/packet-filtering-firewalls/">docs.docker.com · Packet filtering and firewalls</a>（容器發佈的連接埠繞過 ufw 規則）</li>
+  </ol>
+</section>
+
+<footer>標「待確認」者，尚未取得客戶書面或官方證據。工時為粗估，待工程確認。</footer>
+</div>
+</body>
+</html>
